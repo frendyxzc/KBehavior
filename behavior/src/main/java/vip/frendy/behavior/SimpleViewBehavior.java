@@ -14,6 +14,7 @@ import android.view.View;
 
 /**
  * Created by zoonooz on 12/30/15 AD.
+ * Modified by frendy on 7/3/2018
  * Easy CoordinatorLayout Behavior
  */
 public class SimpleViewBehavior extends PercentageViewBehavior<View> {

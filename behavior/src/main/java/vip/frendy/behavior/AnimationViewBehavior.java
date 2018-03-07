@@ -12,6 +12,7 @@ import android.view.animation.Transformation;
 
 /**
  * Created by zoonooz on 5/1/2018 AD.
+ * Modified by frendy on 7/3/2018
  * Behavior use with {@link Animation}
  */
 public class AnimationViewBehavior extends PercentageViewBehavior<View> {

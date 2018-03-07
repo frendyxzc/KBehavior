@@ -10,6 +10,7 @@ import android.view.View;
 
 /**
  * Created by zoonooz on 5/1/2018 AD.
+ * Modified by frendy on 7/3/2018
  * Base behavior for percentage driven behaviors.
  */
 public class PercentageViewBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
