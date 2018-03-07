@@ -1,0 +1,4 @@
+<resources>
+    <string name="simple_view_behavior">vip.frendy.behavior.SimpleViewBehavior</string>
+    <string name="animation_view_behavior">vip.frendy.behavior.AnimationViewBehavior</string>
+</resources>
