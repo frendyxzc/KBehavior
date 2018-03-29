@@ -61,6 +61,7 @@ public class AnimationViewBehavior extends PercentageViewBehavior<View> {
             }
             mTransformAnimation.setTransformation(transformation);
             child.setAnimation(mTransformAnimation);
+            child.requestLayout();
         }
     }
 
