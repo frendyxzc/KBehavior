@@ -21,6 +21,6 @@ allprojects {
 
 ```
 dependencies {
-  compile 'com.github.frendyxzc:KBehavior:0.0.3'
+	compile 'com.github.frendyxzc:KBehavior:0.0.3'
 }
 ```
