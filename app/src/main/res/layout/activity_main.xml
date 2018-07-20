@@ -52,18 +52,38 @@
     <View
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="20dp"
         android:rotationX="90"
         android:elevation="10dp"
         android:background="@android:color/holo_blue_bright"
-        android:alpha="0"
+        android:alpha="1"
         app:layout_behavior="@string/simple_view_behavior"
         app:behavior_dependsOn="@+id/app_bar"
         app:behavior_dependType="y"
         app:behavior_dependTarget="-156dp"
         app:behavior_targetAlpha="1"
         app:behavior_targetRotateX="0"
-        app:behavior_targetX="20dp"/>
+        app:behavior_targetY="20dp"
+        app:behavior_targetX="120dp"/>
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="end"
+        android:rotationX="90"
+        android:elevation="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:alpha="1"
+        app:layout_behavior="@string/simple_view_behavior"
+        app:behavior_dependsOn="@+id/app_bar"
+        app:behavior_dependType="y"
+        app:behavior_dependTarget="-156dp"
+        app:behavior_targetAlpha="1"
+        app:behavior_targetRotateX="0"
+        app:behavior_targetY="20dp"
+        app:behavior_targetX="260dp"/>
 
 </android.support.design.widget.CoordinatorLayout>
