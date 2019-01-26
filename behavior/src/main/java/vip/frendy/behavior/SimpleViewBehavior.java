@@ -149,6 +149,19 @@ public class SimpleViewBehavior extends PercentageViewBehavior<View> {
     }
 
     /**
+     * 通知布局更新
+     */
+    public void notifyViewChanged(View child) {
+        mStartX = (int) child.getX();
+        mStartY = (int) child.getY();
+        mStartWidth = child.getWidth();
+        mStartHeight = child.getHeight();
+        mStartAlpha = child.getAlpha();
+        mStartRotateX = child.getRotationX();
+        mStartRotateY = child.getRotationY();
+    }
+
+    /**
      * Builder
      */
     public static class Builder extends PercentageViewBehavior.Builder<Builder> {
