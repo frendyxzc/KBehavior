@@ -76,8 +76,8 @@ public class SimpleViewBehavior extends PercentageViewBehavior<View> {
     void prepare(CoordinatorLayout parent, View child, View dependency) {
         super.prepare(parent, child, dependency);
 
-        mStartX = (int) child.getX();
-        mStartY = (int) child.getY();
+        mStartX = (int) (child.getX() - child.getTranslationX());
+        mStartY = (int) (child.getY() - child.getTranslationY());
         mStartWidth = child.getWidth();
         mStartHeight = child.getHeight();
         mStartAlpha = child.getAlpha();
@@ -152,8 +152,8 @@ public class SimpleViewBehavior extends PercentageViewBehavior<View> {
      * 通知布局更新
      */
     public void notifyViewChanged(View child) {
-        mStartX = (int) child.getX();
-        mStartY = (int) child.getY();
+        mStartX = (int) (child.getX() - child.getTranslationX());
+        mStartY = (int) (child.getY() - child.getTranslationY());
         mStartWidth = child.getWidth();
         mStartHeight = child.getHeight();
         mStartAlpha = child.getAlpha();
